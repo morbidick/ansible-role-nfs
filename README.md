@@ -1,6 +1,6 @@
 # Ansible Role: NFS
 
-[![Build Status](https://travis-ci.org/geerlingguy/ansible-role-nfs.svg?branch=master)](https://travis-ci.org/geerlingguy/ansible-role-nfs)
+[![Build Status](https://travis-ci.org/morbidick/ansible-role-nfs.svg?branch=master)](https://travis-ci.org/morbidick/ansible-role-nfs)
 
 Installs NFS utilities on RedHat/CentOS or Debian/Ubuntu.
 
@@ -39,7 +39,7 @@ None.
 
     - hosts: db-servers
       roles:
-        - { role: geerlingguy.nfs }
+        - { role: morbidick.nfs }
 
 ## License
 
@@ -48,3 +48,4 @@ MIT / BSD
 ## Author Information
 
 This role was created in 2014 by [Jeff Geerling](http://jeffgeerling.com/), author of [Ansible for DevOps](http://ansiblefordevops.com/).
+And forked by [morbidick](https://github.com/morbidick)
